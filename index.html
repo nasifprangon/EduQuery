@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EduQuery</title>
 </head>
 <body>
-  <h2>Ask a question about the syllabus</h2>
-  <form onsubmit="askQuestion(); return false;">
-    <input type="text" id="question" placeholder="e.g., What time is the class?" size="60">
-    <button type="submit">Ask</button>
-  </form>
+  <h1>Ask about your course!</h1>
+  <input type="text" id="question" placeholder="e.g. What time is the class?" size="60" />
+  <button onclick="askQuestion()">Ask</button>
   <p id="response"></p>
+
   <script src="script.js"></script>
 </body>
 </html>
