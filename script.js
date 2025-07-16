@@ -1,4 +1,5 @@
-const BACKEND_URL = "https://eduquery-backend.onrender.com";  // Replace with your actual backend URL
+const BACKEND_URL = "https://eduquery-o6vc.onrender.com";  // ✅Render URL
+
 
 async function askQuestion() {
   const question = document.getElementById("question").value;
